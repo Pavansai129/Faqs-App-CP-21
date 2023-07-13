@@ -1,0 +1,24 @@
+Total:8
+8
+0
+Faqs App tests
+
+8
+8
+0
+Page should consist of at least two HTML list items and the faqsList should be rendered using a unique key as a prop for each FAQ item
+184 ms 
+Each FAQ item should consist of an HTML main heading element with text content equal to the "question" value of the FAQ item in faqsList provided
+91 ms 
+When the plus icon in a FAQ item is clicked, then the HTML paragraph element with text content equal to the "answer" value in faqsList provided should be displayed
+70 ms 
+When the plus icon in a FAQ item is clicked, then the plus icon should be replaced with an HTML image element with alt as "minus" and src value as the URL for the minus icon
+102 ms 
+When the minus icon in a FAQ item is clicked, then the HTML paragraph element with text content equal to the "answer" value in faqsList provided should be hidden
+98 ms 
+When the minus icon in a FAQ item is clicked, then the minus icon should be replaced with an HTML image element with alt as "plus" and src value as the URL for the plus icon
+174 ms 
+Page should consist of at least four HTML image elements with alt as "plus" and src value as the URL for the plus icon
+45 ms 
+Page should consist of all FAQs in faqsList provided
+291 ms 
